@@ -1,0 +1,64 @@
+#navi {   
+    background-color: bisque;
+    padding: 25px;
+    }
+#link {
+    float: right;    
+}
+#name {
+    margin-top: 10px;
+    font-size: 25px;
+    /* bottom: 5px; */
+    padding: 25px;
+    background-color: chocolate;
+    display: inline;
+    box-sizing: border-box;    
+}
+.nav-link {
+    display: inline; 
+    }
+#about-pic {
+    float: left;
+    display: inline;
+    margin: 10px;
+}
+.port-pic {
+    margin: 15px;
+}
+#body {
+    clear: both;
+    background-color: darkgray;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    background-color: bisque;
+    margin-top: 10px;
+    border-top: 8px solid black;
+}
+@media screen and (max-width: 640px){
+    #name {
+        text-align: center;
+        width: 100%;
+        display: block;        
+    }
+    img {
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+    .nav-link {
+        /* text-align: center; */
+        width: 100%;
+        display: inline;
+        clear: both;
+        text-align: center;
+    }  
+        }
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #message {
+        height: 300px;
+    }
