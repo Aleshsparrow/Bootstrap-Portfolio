@@ -30,6 +30,10 @@
     background-color: darkgray;
     margin-top: 10px;
 }
+img {
+    height: 200px;
+    width: 200px;
+}
 footer {
     text-align: center;
     background-color: bisque;
@@ -42,16 +46,19 @@ footer {
         width: 100%;
         display: block;        
     }
-    img {
+    .port-pic{
         width: 100%;
-        display: block;
+    }
+    #about-pic {
         clear: both;
+        width: 100%;
+        display: block;        
     }
     .nav-link {
-        /* text-align: center; */
-        width: 100%;
-        display: inline;
         clear: both;
+        text-align: center;
+        width: 100%;
+        display: inline;        
         text-align: center;
     }  
         }
